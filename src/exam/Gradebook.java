@@ -6,6 +6,10 @@ import java.util.HashMap;
 public class Gradebook {
 	//Part 3: Implement the Gradebook
 	
+	//You are expected to use this HashMap to store
+	//graded items for each student
+	private HashMap<String, ArrayList<Gradeable>> grades;
+	
 	public static void main(String[] args) {
 		
 		//Please do not modify this code.
